@@ -147,10 +147,15 @@ body {
   position: relative;
 }
 
-.hero .banner_inner .left_wrapper-container p {
+.hero .banner_inner .left_wrapper-container .text-content span {
+  color: #02250a;
+}
+
+.hero .banner_inner .left_wrapper-container .text-content p {
   font-size: 3rem;
   font-weight: 900;
   line-height: 58.09px;
+  width: 520px;
 }
 
 .hero .banner_inner .left_wrapper-container .arrow-curve {
