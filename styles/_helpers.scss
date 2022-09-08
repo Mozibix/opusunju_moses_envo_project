@@ -22,6 +22,7 @@
   padding: 1.5rem 4.375rem;
   margin-top: 49px;
   border-radius: 5px;
+  cursor: pointer;
 
   &.primary {
     background-color: $primary;
@@ -43,5 +44,6 @@ button.see-more {
   margin-top: 45px;
   border-radius: 5px;
   background-color: #fff;
+  cursor: pointer;
   text-transform: capitalize;
 }

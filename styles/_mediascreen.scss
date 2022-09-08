@@ -1,0 +1,75 @@
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 99%;
+    .nav {
+      border: 1px solid;
+      background-color: red;
+
+      &-list {
+        .nav-item {
+          display: none;
+        }
+      }
+    }
+
+    .banner {
+      width: 90%;
+      .right {
+        display: none;
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .contents {
+    inset-block-start: -30rem;
+
+    .left-side {
+      display: none;
+    }
+  }
+
+  .reports {
+    position: relative;
+    inset-block-start: -35rem;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    &-wrapper {
+      .reports-content {
+        .recent-reports {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .reports-data {
+            margin-bottom: 9rem;
+          }
+        }
+      }
+
+      button {
+        position: absolute;
+        top: 40rem;
+        left: 11.5rem;
+      }
+    }
+  }
+
+  .niger-delta-section {
+    position: relative;
+    inset: -25rem -1rem;
+    p {
+      all: unset;
+    }
+   .img-section{
+    overflow: hidden;
+    }
+  }
+
+
+}
