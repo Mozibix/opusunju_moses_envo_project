@@ -24,6 +24,10 @@
   border-radius: 5px;
   cursor: pointer;
 
+  @media screen and (max-width: 800px) {
+    padding: .5rem 1rem;
+    margin-left: -1rem;
+
   &.primary {
     background-color: $primary;
     color: white;
@@ -46,4 +50,5 @@ button.see-more {
   background-color: #fff;
   cursor: pointer;
   text-transform: capitalize;
+}
 }
